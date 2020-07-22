@@ -1,3 +1,20 @@
+# Version 0.9.5
+
+* Issue #13369 - Add recovered,telemetered drivers to split PCO2A ingestions
+
+# Version 0.9.4
+
+* Issue #14609 - Fixed METBK CT driver/parser to remove inductive_id from generated stream
+* Issue #14625 - Fix pCO2 parsers to generate correct streams during playback ingestions
+
+# Version 0.9.3
+
+* Issue 14609 - Fixed METBK CT driver/parser to ingest all files
+
+# Version 0.9.2
+
+* Issue 14304 - Added new METBK CT parser for Seabird SBE37SM-RS485 hex data file
+
 # Version 0.9.1
 
 * Issue 14170 - Fixed regex expression to include signed integers on pitch and roll. 
